@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('../assets/fonts/AvenirNextLTPro-Regular.woff');
+
+
+	}
+	@font-face{
+		font-family: 'SF Compact Display';
+	src: url('../assets/fonts/sf-compact-display-medium-5864711817c30.woff');
+}
+	body {
+	  font-family: 'Avenir Next';
+	}
+
+.welcome{
+	position: absolute;
+	top:420px;
+
+	height: 10px;
+	width: 300px;
+	color: #FFFFFF;
+	font-family: "SF Compact Display";
+	font-size: 31px;
+	line-height: 37px;
+	text-align: center;
+}
+
+.writePass {
+	height: 10px;
+	width: 250px;
+	color: #FFFFFF;
+	font-family: "SF Compact Display";
+	font-size: 19px;
+	font-weight: 300;
+	position: absolute;
+	top:480px;
+	padding-bottom: 579px;
+}
+/*forgot my password Link*/
+.link {
+	position: absolute;
+	height: 20px;
+	width: 192px;
+	color: #FFFFFF;
+	font-family: "Avenir Next";
+	font-size: 15px;
+	line-height: 20px;
+	text-align: center;
+
+	top: 640px;
+}
+
+/*background Color*/
+	body {
+		background-color: #180934;
+	}
+
+/*button*/
+.button input{
+	height: 20px;
+	width: 44px;
+	color: #FFFFFF;
+	font-family: "Avenir Next";
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 20px;
+	text-align: center;
+}
+
+
+/*text box*/
+
+::placeholder {
+	height: 20px;
+	width: 67px;
+	opacity: 2;
+	color: #FFFFFF;
+	font-family: "Avenir Next";
+	font-size: 20px;
+	font-weight: 500px;
+	 text-align: center;
+
+}
+
+
+.textBox{
+	padding: -2px;
+	border: none;
+	background: none;
+
+}
+
+/*avatar picture*/
+.avatar{
+	position: absolute;
+	top: 250px;
+
+	height: 162px;
+	width: 162px;
+
+}
+
+
+.row-centered {
+    text-align:center;
+}
